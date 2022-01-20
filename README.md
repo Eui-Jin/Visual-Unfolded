@@ -6,7 +6,7 @@ Based on [Unfolded](https://www.unfolded.ai/), spatiotemporal movements of trans
 
 ## Overview
 
-Spatiotemporal patterns of transit users' trips according to activity duration and trip purposes are visualized. Trip purposes of smart card data are esitimated using [DF-CGAN](https://github.com/Eui-Jin/CGAN-DF)
+Spatiotemporal patterns of transit users' trips according to activity duration and trip purposes are visualized. Trip purposes of smart card data are esitimated using [CGAN-DF](https://github.com/Eui-Jin/CGAN-DF)
 <img width="80%" src="https://user-images.githubusercontent.com/97636336/150331088-cdba9bc0-420c-4d14-b45f-13c4539b50ad.gif"/>
 
 ## Getting Started
@@ -18,7 +18,7 @@ Spatiotemporal patterns of transit users' trips according to activity duration a
 
 #### Dataset
 * 'Data' contains the sampled smart card data with trip purposes 'ActivityPattern.csv'
-* Other dataset is used to generate the 'ActivityPattern.csv' using 'DataPreprocesing.ipynb' and 'DF-CGAN-Output.ipynb'. More details are provided in [DF-CGAN](https://github.com/Eui-Jin/CGAN-DF)
+* Other dataset is used to generate the 'ActivityPattern.csv' using 'DataPreprocesing.ipynb' and 'DF-CGAN-Output.ipynb'. More details are provided in [CGAN-DF](https://github.com/Eui-Jin/CGAN-DF)
 
 ##### Visualization_Unfolded.ipynb
 * Step-by-step implementation of visualization using unfolded
@@ -26,7 +26,7 @@ Spatiotemporal patterns of transit users' trips according to activity duration a
 * Need to be updated...
 
 ##### 'DataPreprocesing.ipynb' and 'DF-CGAN-Output.ipynb'
-* This code generates the 'ActivityPattern.csv'. Please refer [DF-CGAN](https://github.com/Eui-Jin/CGAN-DF)
+* This code generates the 'ActivityPattern.csv'. Please refer [CGAN-DF](https://github.com/Eui-Jin/CGAN-DF)
 
 ## Authors
 
