@@ -20,10 +20,6 @@ Spatiotemporal patterns of transit users' trips according to activity duration a
 * 'Data' contains the sampled smart card data with trip purposes 'ActivityPattern.csv'
 * Other dataset is used to generate the 'ActivityPattern.csv' using 'DataPreprocesing.ipynb' and 'DF-CGAN-Output.ipynb'. More details are provided in [DF-CGAN](https://github.com/Eui-Jin/CGAN-DF)
 
-##### DataPreprocessing.ipynb
-* DataPreprocessing transforms the trip-chain attributes into sequential ndarray to use for Tensorflow
-* Detailed descriptions are provided in the notebook files.
-
 ##### Visualization_Unfolded.ipynb
 * Step-by-step implementation of visualization using unfolded
 * Spatial and time-line analysis are presented 
@@ -42,5 +38,5 @@ Spatiotemporal patterns of transit users' trips according to activity duration a
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
-* [DF-CGAN](https://github.com/Eui-Jin/CGAN-DF)
+* [CGAN-DF](https://github.com/Eui-Jin/CGAN-DF)
 * [Unfolded](https://github.com/UnfoldedInc)
